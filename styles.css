@@ -1,0 +1,39 @@
+.header {
+  margin-left: -40px;
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url(/assets/images/banner.png);
+  height: 512px;
+  /*    background-color: #ff9200; */
+  background-position: center;
+}
+
+@font-face {
+  font-family: "Rethink Sans Bold";
+  src: url(/assets/fonts/Rethink\ Sans/static/RethinkSans-Bold.ttf) format('truetype');
+}
+
+body {
+  background-color: #3298ff;
+  font-family: "Rethink Sans Bold";
+}
+
+nav {
+  display: inline-block;
+}
+nav ul {
+    list-style-type: none;
+    transition: background-color 500ms;
+    font-family: "Rethink Sans Bold";
+    font-weight: bold;
+}
+nav ul li:last-child {
+    border-right: none;
+}
+nav ul li {
+    display : inline;
+    border-right: 2px solid #111111;
+    transition: border-right 500ms;
+}
